@@ -1,3 +1,16 @@
+*{
+	margin: 0;   /* body-8px */
+	text-decoration: none;
+	font-style: normal;  /* i/em */
+	padding: 0;
+	box-sizing: content-box;
+	font-family: "΢���ź�";
+	list-style: none;
+}
+a{
+	color: #333;
+}
+
 @font-face {
   font-family: 'iconfont';  /* project id 664833 */
   src: url('https://at.alicdn.com/t/font_664833_9qiusw4y75a02j4i.eot');
@@ -134,6 +147,7 @@
 .ddbf_nav_right1.active{
 	background: #02adf0;
 }
+
 .ddbf_bread_nav{
 	width: 1200px;
 	height: 74px;
@@ -348,6 +362,7 @@
 .add_enclosure{
 	font-weight: bold;
 	color: #666;
+	cursor: pointer;
 }
 .added_enclosure{
 	font-size: 14px;
@@ -410,6 +425,7 @@
 	background: url('../img/zddt_02.png') no-repeat;
 	background-position: 0 0;
 	position: relative;
+	background-size: 100% 235px;
 }
 .zzdt_word{
 	width: 100%;

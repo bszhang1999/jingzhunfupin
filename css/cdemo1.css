@@ -1,0 +1,86 @@
+
+.content{
+    width: 100%;
+    height: auto;
+    /*background-color: blue;*/
+    margin:0 auto;
+}
+.content_main{
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+    /*background-color: darkcyan;*/
+}
+.content_main_nav{
+    width: 1200px;
+    height: 140px;
+    line-height: 140px;
+    /*background-color: darkgoldenrod;*/
+}
+.title1{
+    font-size: 18px;
+    color:#333333;
+    float: left;
+}
+.title2{
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    color:#333;
+}
+.icon1{
+    font-size: 18px;
+    color:#333333;
+    float: left;
+}
+.content_main_con{
+    padding:0 36px;
+}
+.title{
+   text-align: center;
+    font-size: 26px;
+    letter-spacing:3px;
+    color:#333333;
+    font-weight:600;
+}
+.content_con{
+    line-height: 52px;
+    margin-left: 400px;
+    text-align: center;
+}
+.title_time{
+    font-size: 10px;
+    color:#888888;
+    float: left;
+}
+.title_origin{
+    font-size: 10px;
+    color:#888888;
+    float: left;
+}
+.content_main_neirong{
+    margin-top: 66px;
+    /*background-color: aqua;*/
+    font-size: 13px;
+    color:#5a5a5a;
+    margin-bottom: 48px;
+}
+.content_main_neirong2{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.img{
+    width: 736px;
+    height: 300px;
+    margin:0 auto;
+    background: url('../img/bj.jpg');
+    background-position: 0px -235px;
+}
+.person{
+    font-size: 13px;
+    color:#5a5a5a;
+    float: right;
+    /*margin-bottom: 198px;*/
+}
+
