@@ -1,12 +1,185 @@
 *{
-	margin: 0;   /* body-8px */
-	text-decoration: none;
-	font-style: normal;  /* i/em */
-	padding: 0;
-	box-sizing: content-box;
-	font-family: "微软雅黑";
-	list-style: none;
+    margin: 0; /* body-8px */
+    padding: 0;
+    text-decoration: none;
+    font-style: normal; /* i标签 */
+    list-style: none;/* 列表 */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
 }
-a{
-	color: #333;
+img{
+    /*width: 100%;*/
+    /*height: 100%;*/
+    border: 0;
+    display: block;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 664599 */
+    src: url('https://at.alicdn.com/t/font_664599_srs7wxkma9ti6bt9.eot');
+    src: url('https://at.alicdn.com/t/font_664599_srs7wxkma9ti6bt9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_664599_srs7wxkma9ti6bt9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_664599_srs7wxkma9ti6bt9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_664599_srs7wxkma9ti6bt9.svg#iconfont') format('svg');
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 664202 */
+    src: url('https://at.alicdn.com/t/font_664202_pl79k3wxytk8d7vi.eot');
+    src: url('https://at.alicdn.com/t/font_664202_pl79k3wxytk8d7vi.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_664202_pl79k3wxytk8d7vi.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_664202_pl79k3wxytk8d7vi.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_664202_pl79k3wxytk8d7vi.svg#iconfont') format('svg');
+}
+.ddbf_top{
+    width: 100%;
+    height: 50px;
+    background: #221815;
+}
+.ddbf_top_main{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.ddbf_top_word{
+    float: left;
+    font-size: 14px;
+    line-height: 50px;
+    color: #fcfdfc;
+}
+.ddbf_top_right{
+    float: right;
+    font-family: "San Francisco";
+}
+.ddbf_nav{
+    width: 100%;
+    height: 88px;
+    background:  #1180ca;
+    position: relative;
+}
+.ddbf_nav:after{
+    content: '';
+    width: 18%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  #fff;
+}
+.ddbf_nav_main{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.ddbf_nav_left{
+    float: left;
+    width: 164px;
+    height: 100%;
+    background: #fff;
+    position: relative;
+}
+.ddbf_nav_jt{
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 11px solid #fff;
+    border-bottom: 7px solid transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -7px;
+    right: -11px;
+    z-index: 10;
+}
+.ddbf_nav_left_box{
+    width: 142px;
+    height: 44px;
+    background: #1180ca;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    z-index: 10;
+}
+.ddbf_nav_right{
+    float: left;
+    width: 1036px;
+    height: 100%;
+
+}
+.ddbf_nav_right1{
+    width: 172.6px;
+    height: 100%;
+    float: left;
+    background: #1180ca;
+    text-align: center;
+    line-height: 88px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.ddbf_nav_underline1{
+    width: 47px;
+    height: 3px;
+    border-radius: 3px;
+    background: #fff;
+    float: left;
+}
+.ddbf_nav_underline{
+    position: absolute;
+    left: 54px;
+    bottom: 21px;
+    display: none;
+}
+.ddbf_nav_underline2{
+    float: left;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: 3px;
+}
+.ddbf_nav_underline11{
+    width: 18px;
+}
+.ddbf_nav_underline0{
+    left: 72px;
+}
+.ddbf_nav_right1:hover .ddbf_nav_underline{
+    display: block;
+}
+.ddbf_nav_right1.active .ddbf_nav_underline{
+    display: block;
+}
+.ddbf_nav_right1:hover{
+    background: #02adf0;
+}
+.ddbf_nav_right1.active{
+    background: #02adf0;
+}
+
+.zzdt{
+    width: 100%;
+    height: 235px;
+    background: url('../img/zddt_02.png') no-repeat;
+    background-position: 0 0;
+    position: relative;
+    background-size: 100% 235px;
+}
+.zzdt_word{
+    width: 100%;
+    height: 61px;
+    position: absolute;
+    top: 96px;
+    left: 0;
+}
+.zzdt_word1{
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #fff;
+    text-align: center;
+}
+.zzdt_word1 a{
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #fff;
 }
